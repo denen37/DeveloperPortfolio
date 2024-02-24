@@ -1,0 +1,74 @@
+
+.navbar{
+    color: rgb(170, 169, 169);   
+    font-size: 14px;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    width: 25%;
+    font-family: 'Prata', sans-serif;
+
+}
+
+.navbar > ul >li{
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: border 0.2s, color 0.2s;
+}
+
+.navbar>ul>li:hover{
+    border-bottom: 3px solid white;
+    padding-bottom: 9px;
+}
+
+.navbar>ul>li:active{
+    color: white;
+}
+
+
+.developer-name{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.contact-btn{
+    font-family: 'Inter', sans-serif;
+    background-color: #fbe850;
+    border: none;
+    padding: 12px 17px;
+    color: black;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.contact-btn:hover{
+    opacity: 0.7;
+}
+
+.contact-btn:active{
+    opacity: 1;
+}
+.menu-btn{
+    width: 25px;
+    display: none;
+}
+@media (max-width: 760px)
+{
+    .menu-btn{
+        display: block;
+    }
+    .contact-btn{
+        display: none;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    body{
+        padding: 10px;
+    }
+}
