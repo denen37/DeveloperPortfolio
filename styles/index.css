@@ -72,3 +72,14 @@
         padding: 10px;
     }
 }
+
+.body{
+    margin-top: 55px;
+}
+
+.header-txt{
+    color: rgb(240, 240, 240);
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
