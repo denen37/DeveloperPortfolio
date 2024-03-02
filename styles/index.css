@@ -55,7 +55,7 @@
     width: 25px;
     display: none;
 }
-@media (max-width: 760px)
+@media screen and (max-width: 760px)
 {
     .menu-btn{
         display: block;
@@ -82,4 +82,29 @@
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 40px;
+}
+.info-txt{
+    color: rgb(170, 170, 170);
+    font-family: 'Prata', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.text-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 760px){
+    .text-grid{
+        grid-template-columns: 1fr;
+    }
+}
+.logo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 80px;
+}
+@media screen and (max-width: 760px){
+    .logo-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
